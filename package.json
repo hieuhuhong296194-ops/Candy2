@@ -14,7 +14,7 @@
     "expo-linking": "*",
     "expo-font": "*",
     "@react-native-async-storage/async-storage": "*",
-    "react": "19.0.0",
+    "react": "*",
     "react-native": "*",
     "react-native-safe-area-context": "*",
     "react-native-screens": "*"
