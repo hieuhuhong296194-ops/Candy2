@@ -1,35 +1,21 @@
 {
   "expo": {
-    "name": "candy2",
+    "name": "Candy",
     "slug": "candy2",
     "version": "1.0.0",
+    "scheme": "candy2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
+    "userInterfaceStyle": "dark",
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0F"
       },
-      "predictiveBackGestureEnabled": false,
-      "package": "com.mcthongao.candy2"
+      "package": "com.mcthongao.candy2",
+      "permissions": ["RECORD_AUDIO","READ_CONTACTS","CALL_PHONE","SEND_SMS"]
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "expo-router"
-    ],
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "44976ac6-8000-448b-9432-61e3a89114af"
-      }
-    }
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true }
   }
 }
