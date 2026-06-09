@@ -12,7 +12,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0A0A0F"
       },
-      "package": "com.mcthongao.candy2",
+      "package": "com.candy.app",
       "permissions": [
         "RECORD_AUDIO",
         "READ_CONTACTS",
