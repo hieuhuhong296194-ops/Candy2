@@ -13,9 +13,24 @@
         "backgroundColor": "#0A0A0F"
       },
       "package": "com.mcthongao.candy2",
-      "permissions": ["RECORD_AUDIO","READ_CONTACTS","CALL_PHONE","SEND_SMS"]
+      "permissions": [
+        "RECORD_AUDIO",
+        "READ_CONTACTS",
+        "CALL_PHONE",
+        "SEND_SMS"
+      ]
     },
-    "plugins": ["expo-router"],
-    "experiments": { "typedRoutes": true }
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "44976ac6-8000-448b-9432-61e3a89114af"
+      }
+    }
   }
 }
